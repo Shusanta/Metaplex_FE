@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+/* Register orchestrators and mutators */
+import './orchestrators/setCandyMachineOrchestrator';
 
 ReactDOM.render(
   <React.StrictMode>

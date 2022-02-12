@@ -1,0 +1,16 @@
+.header {
+    padding-bottom: 8em;
+    background-image: url("../../../public/background.jpeg");
+}
+
+.landingPage {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 64rem;
+    display: flex;
+    flex-direction: column
+}
+
+.flex {
+    display: flex;
+}

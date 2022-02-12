@@ -2,7 +2,9 @@ import ExplorerState from './schema/ExplorerState';
 import { createStore } from 'satcheljs';
 
 const explorerState: ExplorerState = {
-  tokenMetadata: undefined,
+  mintStats: undefined,
+  creators: undefined,
+  nftInfo: undefined,
   query: ''
 }
 
