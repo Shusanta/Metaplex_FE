@@ -1,19 +1,19 @@
 .nftDisplayContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    width: 100%;
-    text-align: center;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+  text-align: center;
+  justify-items: center;
 }
 
 .navigationHeader {
-    justify-content: space-between;
-    display: flex;
-    width: 100%;
-    margin-bottom: 20px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .nftGalleryContainer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }

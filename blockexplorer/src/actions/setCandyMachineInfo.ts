@@ -1,6 +1,8 @@
-import { action } from 'satcheljs';
+import { action } from "satcheljs";
 // pass candy machine data to be decrypted
-export const setCandyMachineInfo = action('setCandyMachineInfo', (data: Buffer) => ({
-    data
-}));
-
+export const setCandyMachineInfo = action(
+  "setCandyMachineInfo",
+  (data: Buffer) => ({
+    data,
+  })
+);

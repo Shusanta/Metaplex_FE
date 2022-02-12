@@ -1,5 +1,3 @@
-
-
 export interface MintStats {
   goliveDate: Date;
   itemsAvailable: number;
