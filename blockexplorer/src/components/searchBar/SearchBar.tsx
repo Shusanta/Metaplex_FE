@@ -30,6 +30,7 @@ export function SearchBar() {
       if (
         candyMachineInfo?.owner.toBase58() !== CANDY_MACHINE_PROGRAM.toBase58()
       ) {
+        alert("Please enter a cmv2 id")
         // The owner has to be the candy machine program
         setIsValidSearch(false);
         return;
